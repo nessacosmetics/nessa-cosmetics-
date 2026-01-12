@@ -1,84 +1,31 @@
-nessa-cosmetics/
-│
-├── index.html                (Home)
-├── shop.html                 (Shop – category selection)
-├── lips-matte.html           (Matte Lipsticks)
-├── lips-gloss.html           (Lip Glosses)
-├── lips-liner.html           (Lip Liners)
-├── eyes-lashes.html          (Lashes)
-├── eyes-liner.html           (Eyeliners)
-├── eyes-shadow.html          (Eyeshadow)
-├── checkout.html             (Order form)
-├── payment.html              (Payment instructions)
-│
-├── css/
-│   └── style.css
-│
-├── images/
-│   ├── logo.png
-│   ├── products/
-│   │   ├── lipstick1.jpg
-│   │   ├── lash1.jpg
-│   │   └── etc...
---pink: #f6b6c8;
---white: #ffffff;
---dark: #111111;
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Nessa Cosmetics</title>
+  <meta charset="UTF-8">
+  <title>Payment | Nessa Cosmetics</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
-  <h1>NESSA COSMETICS</h1>
-  <p>Bold Glam Beauty • Worldwide Shipping</p>
-  <a href="shop.html" class="btn">Shop Collection</a>
+  <h1>Payment Instructions</h1>
+  <p>Please complete payment using one option below</p>
 </header>
+
+<section class="payment">
+
+  <h3>Zelle (USA)</h3>
+  <p>Email: <strong>payments@nessacosmetics.com</strong></p>
+
+  <h3>Remitly (International)</h3>
+  <p>Email: <strong>payments@nessacosmetics.com</strong></p>
+
+  <p class="note">
+    Use your order name as the payment reference.<br>
+    Worldwide shipping available.
+  </p>
+
+</section>
 
 </body>
 </html>
-<h2>Shop by Category</h2>
-
-<div class="category">
-  <a href="lips-matte.html">Matte Lipsticks</a>
-  <a href="lips-gloss.html">Lip Glosses</a>
-  <a href="lips-liner.html">Lip Liners</a>
-</div>
-
-<div class="category">
-  <a href="eyes-lashes.html">Lashes</a>
-  <a href="eyes-liner.html">Eyeliners</a>
-  <a href="eyes-shadow.html">Eyeshadow</a>
-</div>
-<div class="product">
-  <img src="images/products/lipstick1.jpg">
-  <h3>Velvet Matte Lipstick</h3>
-  <p>Long-wear • Bold pigment</p>
-  <strong>$18</strong>
-  <a href="checkout.html?product=Velvet Matte Lipstick" class="btn">
-    Buy Now
-  </a>
-</div>
-<h2>Checkout</h2>
-
-<form action="https://formsubmit.co/YOUREMAIL@gmail.com" method="POST">
-  <input type="text" name="name" placeholder="Full Name" required>
-  <input type="email" name="email" placeholder="Email" required>
-  <input type="text" name="country" placeholder="Country" required>
-  <input type="hidden" name="product" value="">
-  <button type="submit">Continue to Payment</button>
-</form>
-<h2>Payment Instructions</h2>
-
-<p>Please complete payment using one option below.
-Use your order number as the reference.</p>
-
-<h3>Zelle (USA)</h3>
-<p>payments@nessacosmetics.com</p>
-
-<h3>Remitly (International)</h3>
-<p>payments@nessacosmetics.com</p>
-
-<p>Worldwide shipping available.</p>
