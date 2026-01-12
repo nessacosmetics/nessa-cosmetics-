@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #111;
+}
+
+header {
+  background: #f6b6c8;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.btn {
+  background: #111;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+section {
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
