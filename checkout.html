@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout | Nessa Cosmetics</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Checkout</h1>
+  <p>Complete your order below</p>
+</header>
+
+<section class="checkout">
+  <form action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST">
+
+    <!-- Replace with your real email above -->
+
+    <input type="hidden" name="_subject" value="New Order - Nessa Cosmetics">
+    <input type="hidden" name="_captcha" value="false">
+
+    <label>Full Name</label>
+    <input type="text" name="name" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <label>Country</label>
+    <input type="text" name="country" required>
+
+    <label>Product Ordered</label>
+    <input type="text" name="product" placeholder="Product name" required>
+
+    <button type="submit" class="btn">
+      Continue to Payment
+    </button>
+
+  </form>
+</section>
+
+</body>
+</html>
