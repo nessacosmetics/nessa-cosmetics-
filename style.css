@@ -36,3 +36,8 @@ button {
   border: none;
   cursor: pointer;
 }
+:root {
+  --pink: #f6b6c8;
+  --white: #ffffff;
+  --dark: #111111;
+}
